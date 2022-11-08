@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>barbecuelist</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    
+    <body>
+        <div class="leftcontainer">
+            <img src="./assets/barbecue.png" id="logo">
+        </div>
+        
+        <div class="rightcontainer">
+            <div class="card">
+                <h1>get ready for<br>your barbecue</h1>
+                
+                <p class="categories">adults</p>
+                <input id="adults" type="number" placeholder="No. of adults">
+                
+                <p class="categories">kids</p>
+                <input id="kids" type="number" placeholder="No. of kids">
+                
+                <p class="categories">duration</p>
+                <input id="duration" type="number" placeholder="No. of hours">
+                
+                <button onclick="calculate()">start</button>
+                
+                <div class="quantities"></div>
+            </div>
+        </div>
+        
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>

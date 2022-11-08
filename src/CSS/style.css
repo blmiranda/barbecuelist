@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body, html{
+  font-family: Futura, sans-serif;
+}
+
+
+
+.leftcontainer{
+  background-color: #071E22;
+  width: 50vw;
+  height: 100vh;
+  float: left;
+  position: relative;
+}
+#logo{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+
+
+.rightcontainer{
+  background-color: #FED8BC;
+  width: 50vw;
+  height: 100vh;
+  float: left;
+  position: relative;
+}
+.card{
+  width: 475px;
+  height: 700px;
+  border: 5.5px solid #1C7773;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+h1{
+  color: #EE2E31;
+  font-size: 40px;
+  position: absolute;
+  top: -18%;
+  text-align: left;
+}
+.categories{
+  color: #1C7773;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+input{
+  width: 91%;
+  height: 5%;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  font-family: Futura, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  color: #1C7773;
+  border: 3px solid #EE2E31;
+  border-radius: 10px;
+  outline: none;
+}
+button{
+  display: block;
+  width: 91%;
+  height: 8%;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  background-color: #EE2E31;
+  color: #FED8BC;
+  font-family: Futura, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 10px 7px 5px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+
+.quantities{
+  color: #1C7773;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 20px;
+}
+h3{
+  font-size: 36px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.needcontainer{
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  position: relative;
+  border-bottom: 5px solid #1C7773;
+}
+.need{
+  font-size: 16px;
+  margin-bottom: 10px;
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#meat{
+  width: 30px;
+}
+#beer{
+  width: 20px;
+}
+#water{
+  width: 20px;
+}
+#soda{
+  width: 20px;
+}
