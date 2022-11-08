@@ -5,6 +5,7 @@
 
 body, html{
   font-family: Futura, sans-serif;
+  display: flex;
 }
 
 
@@ -32,26 +33,22 @@ body, html{
   background-color: #FED8BC;
   width: 50vw;
   height: 100vh;
-  float: left;
-  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .card{
   width: 475px;
   height: 700px;
   border: 5.5px solid #1C7773;
   border-radius: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
   text-align: center;
 }
 h1{
   color: #EE2E31;
   font-size: 40px;
-  position: absolute;
-  top: -18%;
-  text-align: left;
 }
 .categories{
   color: #1C7773;
